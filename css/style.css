@@ -1,0 +1,187 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.nav{
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    margin:auto;
+    background-color:whitesmoke;
+}
+.nav img, button{
+    height:50px;
+}
+.nav>button{
+    width:100px;
+    margin-bottom:5px;
+}
+
+.building{
+    width:90%;
+    height:70vh;
+    background-image:linear-gradient( rgba(231, 233, 235, 0.4), rgba(181, 191, 186, 0.3)) ,url("../IMG/building.jpeg");
+    text-align:center;
+    margin:auto;
+    background-size:100% 100vh;
+}
+.building-1{
+    margin:auto; 
+    width:40%;
+}
+
+.building-1>h1{
+font-size:70px;
+padding-top:150px;
+color:white;
+text-shadow: 0px 0px 6px olive;
+}
+.building-1>p{
+    font-size:18px;
+    color:black;
+    margin-top:50px;
+}
+.building-1>button{
+    font-size:25px;
+    padding:10px 50px;
+    border-radius:20px;
+    background-color:rgba(9, 160, 230,.7);
+    color:white;
+    margin-top:20px;
+    border:none;
+    font-weight:bold;
+}
+/*----------- container ki coding start---------- */
+.container{
+    margin:50px  auto;
+    display:flex;
+    width:90%;
+    height:50vh;
+    justify-content:space-around;
+}
+.container>div{
+    width:25%;
+    
+}
+.container>.left,.container>.right{
+    margin-top:50px;
+}
+.container div>h2{
+    font-size:20px;
+    color:rgb(59, 121, 227);
+    margin-bottom:30px;
+}
+.container div>p{
+    margin-bottom:30px;
+}
+
+.center>img{
+    border-radius:50%;
+}
+/*----------- container ki coding End---------- */
+
+
+/*----------- feugiat ki coding start---------- */
+.feugiat{
+    width:90%;
+height:50vh;
+background-color:rgb(253, 72, 0);
+margin:auto;
+text-align:center;
+color:white;
+
+}
+.feugiat-1{
+    width:40%;
+    margin:auto;
+}
+.feugiat-1>h1{
+    font-size:50px;
+    padding-top:60px;
+    
+}
+.feugiat-1>p{
+    /* font-size:50px; */
+    padding-top:50px;
+    
+}
+.feugiat-1>h2{
+    /* font-size:50px; */
+    padding-top:50px;
+    
+}
+.feugiat-1>pre{
+    font-size:18px;
+    color:whitesmoke;
+    /* padding-top:50px; */
+    
+}
+/*----------- feugiat ki coding End---------- */
+
+
+/*----------- flex ki coding start---------- */
+
+.flex{
+    width:90%;
+    margin: 50px auto;
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:;
+}
+.flex>div{
+    width:25%;
+    border:2px solid black;
+    margin:0px;
+    padding:0px;
+}
+.flex div >img{
+    width:100%;
+   
+}
+.flex div>h2{
+    color:rgb(59, 121, 227);
+    margin:20px 30px 30px 15px;
+}
+.flex div>p{
+    font-size:18px;
+    margin:20px 30px 30px 15px;
+}
+
+/*----------- flex ki coding End---------- */
+
+
+/*----------- footer ki coding start---------- */
+footer{
+    width:90%;
+    height:45vh;
+    background-color:rgb(0, 179, 249);
+    color:white;
+    margin:auto;
+    text-align:center;
+}
+footer>h1{
+    font-size:50px;
+    padding:100px 0px 20px 0px;
+}
+footer>a{
+    color:white;  
+    text-decoration:none;
+    display:inline-block;
+    font-size:25px;
+    margin-left:80px;
+    margin-bottom:25px;
+}
+footer>div{
+    width:60%;
+    border-top:2px solid whitesmoke;
+    margin:auto;
+}
+footer>div{
+    font-size:20px;
+    padding:25px 0px 50px 0px;
+}
+.icon{
+    color:red;
+}
+
+/*----------- footer ki coding End---------- */
